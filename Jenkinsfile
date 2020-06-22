@@ -1,4 +1,4 @@
-job("job1-task6") {
+node {
     def x
 
     stage('Clone repository') 
