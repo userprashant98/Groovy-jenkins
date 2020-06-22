@@ -8,7 +8,7 @@ job("task6-job1") {
 
     stage('Build image') 
     {
-        x = docker.build("userprashant/dynamic-master-slave")
+        x = docker.build("userprashant/webserver")
     }
 
     stage('Test image') 
