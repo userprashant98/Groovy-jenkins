@@ -11,4 +11,3 @@ COPY mysite.html /var/www/html
 EXPOSE 80
 
 CMD /usr/sbin/httpd -DFOREGROUND && /bin/bash
-© 2020 GitHub, Inc.
